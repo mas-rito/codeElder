@@ -1,5 +1,4 @@
 import { logo, plus, hero, arrowRight } from "../../assets";
-import { useState } from "react";
 import { motion } from "framer-motion";
 import MouseCursor from "../Elements/MouseCursor";
 import FrameMagnetic from "../Elements/FrameMagnetic";

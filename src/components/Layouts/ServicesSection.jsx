@@ -26,7 +26,7 @@ const ServicesSection = () => {
           ))}
         </div>
       </Container>
-      <img src={blur2} className="absolute right-0 top-0 -z-10" />
+      <img src={blur2} className="absolute right-0 top-0 -z-10" alt="" />
     </div>
   );
 };
