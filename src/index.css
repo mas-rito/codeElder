@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.visible {
+  overflow: visible; /* atau sesuai dengan keinginan Anda */
+}
+
+.kursor {
+  background-color: #ff8a00;
+  border-radius: 100%;
+  position: fixed;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: transform 0.2s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
