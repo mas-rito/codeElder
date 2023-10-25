@@ -8,6 +8,7 @@ import terminal from "./terminal.svg";
 import pieChart from "./pie-chart.svg";
 import hero from "./hero.png";
 import about from "./about.png";
+import project from "./project.png";
 
 export {
   logo,
@@ -20,4 +21,5 @@ export {
   pen,
   terminal,
   pieChart,
+  project,
 };
